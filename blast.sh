@@ -32,22 +32,22 @@ Version()
 ################################################################################
 ################################################################################
 
- #if [ -z "$*" ]; 
-# 	then 
- #	Help
-#	exit 0  
-# fi
+if [ -z "$*" ]; 
+ 	then 
+ 	Help
+	exit 0  
+fi
 
-#while getopts ":h|:v" option; do
-#   case $option in
-#         h) # display Help#
-#		Help
-#         exit;;
-#         v) # print version
-#         	Version
-#         exit;;
-#   esac
-#done
+while getopts ":h|:v" option; do
+   case $option in
+         h) # display Help#
+		Help
+         exit;;
+         v) # print version
+         	Version
+         exit;;
+   esac
+done
 
 pronto="SEND "
 
