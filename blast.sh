@@ -57,7 +57,7 @@ do
     pronto+=" "
 done
 
-$pronto = $pronto"\n"
+#$pronto = $pronto"\n"
 
 stty -F /dev/ttyUSB0 115200 -parity cs8 -cstopb
 tail -f /dev/ttyUSB0 &
