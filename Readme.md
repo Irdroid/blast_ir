@@ -7,18 +7,22 @@ The above sends the provide PRONTO HEX code as an argument for the blast utility
 
 
 ./blast_cmd [command]
+
 The above reads predefined commands/codes from the supplied csv file, parses the commands, codes and if
 the command provided as an argument matches one of the available commands the pronto hex code gets blasted
 
 Options:
 
 ./blast_cmd -h 
+
 Prints help
 
 ./blast_cmd -l 
+
 List available commands / codes
 
 ./blast_cmd -v 
+
 Prints utility version
 
 ### Where to get PRONTO HEX codes for my TV/Device?
