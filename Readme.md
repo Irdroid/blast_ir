@@ -1,4 +1,4 @@
-## Blast
+## Blast IR
 a set of commandline bash tools for sending PRONTO HEX codes using the Irdroino Infrared Shield/Blaster for Arduino
 
 ### Usage:
