@@ -3,6 +3,7 @@
 ### Usage:
 
 ./blast.sh [Pronto HEX Code]
+
 The above sends the provide PRONTO HEX code as an argument for the blast utility
 
 
