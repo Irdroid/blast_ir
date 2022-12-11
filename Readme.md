@@ -1,6 +1,11 @@
 ## Blast IR
 a set of commandline bash tools for sending PRONTO HEX codes using the Irdroino Infrared Shield/Blaster for Arduino
 
+### Applications
+
+- Control TV and other IR controlled equipment via commands from the terminal
+- IR Remote control automation, macros, scheduling infrared commands (see pm scripts directory for sleep/hybernate/resume actions)
+
 ### Usage:
 
 ./blast.sh [Pronto HEX Code]
